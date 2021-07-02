@@ -1,0 +1,71 @@
+{"intents": [
+  {"tag": "salam",
+    "patterns": ["Selamat Siang", "Selamat Sore", "Selamat Malam", "Selamat Pagi", "Assalamualaikum", "Hai" , "Halo" , "Hallo", "Test", "P" , "Hi" ],
+    "responses": ["Hai, Ada yang bisa saya bantu" , "Halo, Selamat Datang di layanan chatbot informatif Covid-19 kami"],
+    "context_set": ""
+  },
+  
+ { "tag": "perkembangan",
+    "patterns": ["Bagaimana perkembangan Covid-19 hari ini", "Covid-19 hari ini","Bagaimana perkembangan Covid 19","Bagaimana Covid 19 hari ini"],
+    "responses": ["Hari ini jumlah yang terpapar Covid-19 adalah 2,115,304 (*data diambil pada tanggal 29 Juni 2021)","Tercatat sampai saat ini jumlah Covid-19 di Indonesia ada 2,115,304 kasus (*data diambil pada tanggal 29 Juni 2021)"],
+    "context_set": ""
+},
+
+{ "tag": "gejala",
+    "patterns": ["tanda-tanda covid 19", "gejala covid 19","Bagaimana gejala Covid 19","gejala yang dialami jika terkena covid 19"],
+    "responses": ["Gejala COVID-19 yang umum adalah demam, rasa lelah dan batuk kering. Ada juga yang mengalami rasa nyeri dan sakit, hidung tersumbat, pilek, sakit tenggorokan atau diare. Ada juga yang tidak merasakan apa-apa, seperti orang sehat", 
+                   "Sebagian besar orang yang terpapar virus ini akan mengalami gejala ringan hingga sedang, dan akan pulih tanpa perlu dirawat di rumah sakit. Adapun gejala umumnya yaitu batuk , demam, anosmia, pegal-pegal, dan diare" ],
+    "context_set": ""
+},
+
+{ "tag": "rapid test",
+    "patterns": ["apa itu rapid test", "rapid test ","informasi rapid test" ,"kegunaan rapid test", " tes untuk covid 19"],
+    "responses": ["Rapid Test atau tes cepat COVID-19 bertujuan untuk mendeteksi kasus secara dini sehingga pemerintah dapat menyusun dan melakukan tindakan yang tepat untuk menghentikan penyebaran virus corona",
+                    "Rapid test adalah metode untuk mendeteksi antibodi, yaitu IgM dan IgG, yang diproduksi oleh tubuh untuk melawan virus Corona. Antibodi ini akan dibentuk oleh tubuh bila ada paparan virus Corona"],
+    "context_set": ""
+    },
+
+{ "tag": "isolasi",
+    "patterns": ["Isolasi diri", "apa itu isolasi mandiri","isolasi" ,"melakukan isolasi"],
+    "responses": ["Isolasi diri dilakukan untuk memantau kondisi kesehatan diri dan menghindari penularan pada orang-orang sekitar termasuk keluarga. Mereka yang melakukan isolasi diri perlu melaporkan kondisi kesehatannya kepada fasilitasi layanan terdekat ",
+                   "Isolasi diri di rumah terkait virus korona artinya, tinggal di di dalam rumah dan menghindari kontak dengan orang lain. Dengan kata lain, tinggal di rumah, tidak pergi kerja, sekolah, atau ke tempat-tempat umum lainnya. Tujuannya jelas, untuk mencegah penularan COVID-19 pada orang lain" ],
+    "context_set": "" 
+    },
+
+{ "tag": "lokasi",
+    "patterns": ["Dimana lokasi vaksin di Pontianak", "Lokasi vaksin Pontianak","Lokasi" ,"Lokasi Vaksin"],
+    "responses": ["Gaia Mall Pontianak ", "Hagar Heli Polda Kalbar", "Lapangan Basket PSP"],
+    "context_set": ""
+    },
+
+    { "tag": "rujukan",
+    "patterns": ["Rumah sakit rujukan di Kalbar", "RS rujukan Kalbar" ,"Rumah sakit untuk penanganan covid di Kalbar", "RS penanganan covid di Kalbar"],
+    "responses": ["RSUD Dr. Soedarso Pontianak ", "RSUD Dr. Abdul Azis Singkawang","RSUD Ade Mohammad Djoen Sintang","RUSD Dr. Agoesdjam Ketapang"],
+    "context_set": ""
+    },
+
+{ "tag": "Pencegahan",
+    "patterns": ["Bagaimana cara melindungi diri dari covid 19", "Cara pencegahan", "Cara melindungi diri dari covid-19"],
+    "responses": ["Tetap di Rumah, Menggunakan Masker jika keluar rumah, Hindari kerumunan, Selalu mencuci tanggan", 
+                    "Ikuti protokol kesehatan dari pemerintah seperti cuci tangan Anda secara rutin, selalu jaga jarak aman dengan orang disekitar , dan kenakan masker saat keluar rumah"],
+    "context_set": ""
+    },
+
+{ "tag": "Masker",
+    "patterns": ["Jenis Masker ", "Masker", "Masker yang baik", "Masker yang efektif"],
+    "responses": ["Disarankan menggunakan masker kain tiga lapis yang dapat dicuci dan digunakan berkali-kali, agar masker bedah dan N-95 yang sekali pakai bisa ditujukan untuk petugas medis", 
+                    "Untuk memberikan proteksi yang lebih baik pastikan memakai masker N95, atau gunakan masker kain tiga lapis "
+                    ],
+    "context_set": ""
+    },
+
+{"tag": "penutup",
+    "patterns": ["Terima kasih", "Oke,Terima kasih","Oke","Baiklah"],
+    "responses": ["Terima kasih telah menggunakan layanan chatbot kami, Semoga hari anda menyenangkan",
+                    "Terima kasih telah menggunakan layanan chatbot kami, Pastikan ikuti protokol kesahatan dari pemerintah ya..",
+                    "Terima kasih telah menggunakan layanan chatbot kami, Semoga jawaban kami membantu"
+                    ],
+    "context_set": ""
+  }
+]
+}
